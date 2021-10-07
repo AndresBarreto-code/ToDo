@@ -90,4 +90,7 @@ func main() {
 	taskList.Print()
 	taskList.PrintComplete()
 
+	tasksMap := make(map[string]*TaskList)
+
+	tasksMap["Andres"] = taskList
 }
